@@ -1,5 +1,3 @@
-
-
 criaCartao(
     'conhecimentos gerais',
     'Em uma corrida, você ultrapassa o segundo colocado. Em que posição você está agora?',

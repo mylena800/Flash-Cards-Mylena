@@ -17,12 +17,10 @@ function criaCartao(categoria, pergunta, resposta) {
 
     let respostaEstaVisivel = false
 
-    function viraCartao(){
-    respostaEstaVisivel=!respostaEstaVisivel
-}
+    function viraCartao() {
+        respostaEstaVisivel = !respostaEstaVisivel
+    }
 
     container.appendChild(cartao)
-
-
 
 }

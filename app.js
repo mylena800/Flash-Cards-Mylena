@@ -18,8 +18,11 @@ function criaCartao(categoria, pergunta, resposta) {
 
     function viraCartao() {
         respostaEstaVisivel = !respostaEstaVisivel
+        cartao.vlasslist.toggle('active', respostaEstaVisivel)
     }
 
+    cartao.addEventListener('click', viraCartao)
+    
     container.appendChild(cartao)
 
 }
